@@ -1,0 +1,171 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Anton", sans-serif;
+    color: 000;
+    font-size: 16px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+ul,
+li {
+    display: block;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    background: url("../img/header-bg.jpg") no-repeat center top / cover;
+    padding-top: 57px;
+    padding-bottom: 322px;
+    margin-bottom: 113px;
+}
+
+header a {
+    color: #fff;
+}
+
+.menu {
+    display: flex;
+    letter-spacing: 0.1em;
+}
+
+.menu li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.menu li {
+    margin-right: 40px;
+}
+
+.tel {
+    font-size: 17px;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    margin-left: auto;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 69px;
+}
+
+.offer {
+    padding: 0px;
+    margin: 0px;
+    padding-top: 216px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.offer p {
+    margin: 0px;
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: 0.1em;
+}
+
+.offer h1 {
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 151px;
+}
+
+.btn {
+    display: block;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    padding: 17px 47px;
+    border: 1px solid #fff;
+    margin-top: 19px;
+    width: 238px;
+    transition: all 0.5s ease;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #fff;
+    color: #000;
+}
+
+.about h2 {
+    margin-bottom: 58px;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 75px;
+}
+
+.about h3 {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+}
+
+.description {
+    display: flex;
+    justify-content: space-between;
+}
+
+.description p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 1.62em;
+}
+
+.desc-left,
+.desc-right {
+    width: 567px;
+    margin-bottom: 84px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery img {
+    transition: all 0.5s ease;
+}
+
+.gallery img:hover {
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
+}
+
+.footer-text {
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    padding: 114px 0;
+}
+
+.footer-text p {
+    margin-right: 67px;
+}
