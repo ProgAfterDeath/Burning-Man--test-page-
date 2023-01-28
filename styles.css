@@ -34,7 +34,7 @@ li {
 }
 
 .header {
-    background: url("../img/header-bg.jpg") no-repeat center top / cover;
+    background: url("img/header-bg.jpg") no-repeat center top / cover;
     padding-top: 57px;
     padding-bottom: 322px;
     margin-bottom: 113px;
